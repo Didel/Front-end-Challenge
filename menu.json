@@ -1,0 +1,15 @@
+{
+  "items": [
+    "Casual shoes",
+    {
+      "name": "Sporting shoes",
+      "items": [
+        "Nike",
+        "Adidas",
+        "Puma",
+        "Reebok"
+      ]
+    },
+    "Formal shoes"
+  ]
+}

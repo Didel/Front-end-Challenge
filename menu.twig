@@ -1,0 +1,12 @@
+<ul>
+{% for item in items %}
+  <li>
+  {% if item.items %}
+    {{ item.name }}
+    {% include 'menu.twig' with {'items': item.items} %}
+  {% else %}
+    {{ item }}
+  {% endif %}
+  </li>
+{% endfor %}
+</ul>
